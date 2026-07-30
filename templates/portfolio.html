@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{{TITLE}} - 한바다 포트폴리오</title>
+<meta name="description" content="{{SUMMARY}}">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.css">
+<link rel="stylesheet" href="../../assets/css/style.css">
+</head>
+<body>
+<header class="site-header">
+  <nav class="nav">
+    <a class="logo" href="../../">
+      <img src="../../assets/images/한바다로고2.png" alt="한바다">
+      한바다
+    </a>
+    <ul class="nav-links">
+      <li><a href="../../services/">서비스</a></li>
+      <li><a href="../../portfolio/">포트폴리오</a></li>
+      <li><a href="../../blog/">블로그</a></li>
+      <li><a href="../../contact/">문의</a></li>
+    </ul>
+  </nav>
+</header>
+
+<article class="post-detail">
+  <div class="meta">{{DATE}} · <span class="category">{{CATEGORY}}</span></div>
+  <h1>{{TITLE}}</h1>
+  {{COVER_HTML}}
+  <div class="post-body">
+{{CONTENT}}
+  </div>
+</article>
+
+<footer class="site-footer">
+  <div class="company">한바다</div>
+  <div>대표 설전옥 · 전화 010-9525-2375</div>
+</footer>
+
+<script src="../../assets/js/main.js"></script>
+</body>
+</html>
